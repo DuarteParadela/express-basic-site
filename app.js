@@ -12,10 +12,10 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/homepage", (req, res) => {
+app.get("/", (req, res) => {
   res.render("homepage");
 });
 
-app.listen(4000, () => {
-  console.log("server is ready ! http://localhost:4000");
+app.listen(8000, () => {
+  console.log("server is ready ! http://localhost:8000");
 });
