@@ -12,6 +12,20 @@ body {
   font-weight: 300;
 }
 
+nav {
+  position: absolute;
+  left: 80vw;
+  top: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 2rem 2.5rem 1.3rem 2.5rem;
+  font-size: 3rem;
+}
+
 h1 {
   font-size: 4em;
   text-shadow: 1px 1px 2px black;
