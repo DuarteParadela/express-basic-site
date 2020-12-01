@@ -33,6 +33,7 @@ h1 {
 #cover {
   background-image: url("/img/south-korean-meal-share.jpg");
   background-size: cover;
+  background-position: center center;
   height: 90vh;
   width: 100%;
   display: flex;
@@ -65,3 +66,33 @@ img {
   font-size: 1rem;
   margin-bottom: 2.5rem;
 }
+
+#about-div {
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  align-content:center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  padding: 10vw;  
+  color: black;
+}
+
+#about-div::after {
+  content: "";
+  background-image: url(/img/south-korea.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
