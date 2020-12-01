@@ -1,5 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4em;
+  text-shadow: 1px 1px 2px black;
+}
+#cover {
+  background-image: url("/img/south-korean-meal-share.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#dish-list {
+  width: 100vw;
+  height: 260vh;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+#dish-list p {
+  margin: 5vh 0;
+}
+
+img {
+  width: auto;
+  height: 50%;
+}
+
+.margin-div {
+  font-size: 1.5rem;
+}
+
+.caption-style {
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
 }
