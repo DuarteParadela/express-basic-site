@@ -88,4 +88,9 @@ img {
 
 #about-div p {
   font-size: 2rem;
+  text-shadow: 1px 1px white;
+}
+
+#about-div h1 {
+  text-shadow: 1px 1px white;
 }
